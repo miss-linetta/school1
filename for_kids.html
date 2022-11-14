@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Школа-ліцей №1 імені Н. Сосніної" І-ІІІ ступенів</title>
+  <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>  
+  <script type="text/javascript">
+  $(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() != 0) {
+  $('#topButton').fadeIn();
+  } else {
+  $('#topButton').fadeOut();
+  }
+  });
+  $('#topButton').click(function() {
+  $('body,html').animate({scrollTop:0},700);
+  });
+  });
+  </script>
+
+<body>
+  
+  <div id="topButton">
+    <img src="images/top.png" width="50px" height="50px"/>
+  </div>
+  <header>
+    <div id="logo">
+      <a href="index.html"><img src="images/logo2.png" width="240px"></a>      
+    </div>
+    <div id="hat">
+      <div class="dropdown">
+        <form action="index.html"><button id="maine" class="dropbtn" title="Головна">Головна</button></form>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" href="#" title="Про школу">Про школу</button>
+        <div class="dropdown-content">
+          <a href="history.html">Інформація</a>
+          <a href="teachers.html">Педадогічний колектив</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <form action="news.html"><button id="news" class="dropbtn" title="Новини">Новини</button></form>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" href="#" title="Для учня">Для учня</button>
+        <div class="dropdown-content">
+          <a href="advices_kids.html">Поради</a>
+          <a href="for_kids.html">Правила</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" href="#" title="Для батьків">Для батьків</button>
+        <div class="dropdown-content">
+          <a href="for_parents.html">Поради</a>
+          <a href="parents_teens.html">Поради батькам старшокласників</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="top">
+    <img id="background_parents" src="images/background6<div id="f_1" class="footer_1"><a href="index.html"><img src="images/logo2.png" width="230px"></a></div>.jpeg" width="100%">
+  </div>
+
+  <div class="zmist">
+    <h1 class="titles">Зміст</h1>
+    <ol>
+      <li>
+        <a href="#history_a">Загальні правила поведінки</a>
+      </li>
+      <li id="history_a">
+        <a href="#nasha_gordist">Вимоги до поведінки на вулицях, у громадських мiсцях</a>
+      </li>
+    </ol>
+  </div>
+
+  <div class="kids_h1" id="common_rules">
+    <h1 class="titles">Єдині педагогічні вимоги до учнів</h1>
+    <p class="pupils">Учні <span id="span1">ЗОБОВ'ЯЗАНІ:</span></p>
+    <ul id="kids_ul1">
+      <li>приходити до навчального закладу за 10-15 хвилин до початку занять;</li>
+      <li>при вході до школи дотримуватися правил ввічливості;</li>
+      <li>приносити необхідне навчальне приладдя;</li>
+      <li>приходити до школи з виконаними домашніми завданнями;</li>
+      <li>заходити до класу з першим дзвінком</li>
+      <li>йти на перерву тільки після того, коли вчитель оголосив про закінчення уроку;</li>
+      <li>охайно вести щоденник і давати його вчителю без будь-яких заперечень;</li>
+      <li>у разі пропуску навчальних занять надати класному керівнику довідку від лікаря або записку від батьків (до 3-х днів) про причину відсутності;</li>
+      <li>на перерві виконувати вимоги чергових учителів та учнів;</li>
+      <li>підтримувати чистоту в коридорах, їдальні, туалетних кімнатах, на шкільному подвір;</li>
+      <li>у приміщенні знаходитися без верхнього одягу, головних уборів;</li>
+      <li>проявляти повагу до старших, піклуватися про молодших;</li>
+      <li>берегти шкільне майно, надавати посильну допомогу в його ремонті;</li>
+      <li>після уроків прибирати кабінет, закріплений за класом.</li>
+    </ul>
+
+    <p class="pupils">Учням <span id="span2">ЗАБОРОНЕНО:</span></p>
+    <ul id="kids_ul2">
+      <li>приносити до школи та на її територію вибухові та вогненебезпечні предмети й речовини, спиртні напої, наркотики;</li>
+      <li>без дозволу педагогів іти зі школи та iї території в урочний час;</li>
+      <li>бігати коридорами, штовхати один одного, кидатися предметами, застосовувати фізичну силу для вирішення будь-якої проблеми;</li>
+      <li>палити в приміщенні та на території школи.</li>
+    </ul>  
+  </div>
+
+  <div id="kids_outdoor" class="kids_h1">
+    <h1 class="titles">Вимоги до поведінки на вулицях, у громадських мiсцях</h1>
+    <ol>
+      <li>Учні зобов'язані виконувати правила поведінки у громадських місцях.</li>
+      <li>Учні повинні дотримуватися правил дорожнього руху.</li>
+      <li>Школярам заборонено бути присутніми на заходах для дорослих та перебувати у вечірній час без супроводу батьків чи осіб, що їх заміняють.</li>
+    </ol>
+  </div>
+
+</body>
+
+<footer>
+  <div id="f_1" class="footer_1"><a href="index.html"><img src="images/logo2.png" width="230px"></a></div>
+  <div id="f_2" class="footer_2">
+    <p>2021. Всі права належать «МЗНВК "Школа-ліцей №1 ім. Ніни Сосніної" І-ІІІ ст.». При використанні матеріалів посилання на сайт обов`язкове.</p>
+  </div>
+
+  <div id="f_3" class="footer_3">
+    <p>Малин, вул. Паркова, 4</p>
+    <p>+38 (041) 335-21-58</p>
+    <p>bestliceum@gmail.com</p>
+  </div>
+
+  <div id="f_4" class="footer_4">
+    <a href="https://instagram.com/school_lyceum1?utm_medium=copy_link"><img src="images/inst.png" width="40px"></a>
+    <a href="https://www.facebook.com/bestliceum.mznvk.9"><img src="images/fb.png" width="40px"></a>
+  </div>
+
+</footer>
+
+</html>

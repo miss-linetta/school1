@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Школа-ліцей №1 імені Н. Сосніної" І-ІІІ ступенів</title>
+  <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script src="js.js"></script>
+</head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>  
+  <script type="text/javascript">
+  $(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() != 0) {
+  $('#topButton').fadeIn();
+  } else {
+  $('#topButton').fadeOut();
+  }
+  });
+  $('#topButton').click(function() {
+  $('body,html').animate({scrollTop:0},700);
+  });
+  });
+  </script>
+
+  <script type="text/javascript">
+    function showText (el) {
+  if(el.previousElementSibling.clientHeight === 80) {
+    el.previousElementSibling.style.height = "100%";
+    el.innerHTML = "Менше";
+  } else {
+    el.previousElementSibling.style.height = "80px";
+    el.innerHTML = "Більше";
+  }
+}
+  </script>
+
+<body>
+  
+  <div id="topButton">
+    <img src="images/top.png" width="50px" height="50px"/>
+  </div>
+
+ <header>
+    <div id="logo">
+      <a href="index.html"><img src="images/logo2.png" width="240px"></a>      
+    </div>
+    <div id="hat">
+      <div class="dropdown">
+        <form action="index.html"><button id="maine" class="dropbtn" title="Головна">Головна</button></form>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" href="#" title="Про школу">Про школу</button>
+        <div class="dropdown-content">
+          <a href="history.html">Інформація</a>
+          <a href="teachers.html">Педадогічний колектив</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <form action="news.html"><button id="news" class="dropbtn" title="Новини">Новини</button></form>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" href="#" title="Для учня">Для учня</button>
+        <div class="dropdown-content">
+          <a href="advices_kids.html">Поради</a>
+          <a href="for_kids.html">Правила</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" href="#" title="Для батьків">Для батьків</button>
+        <div class="dropdown-content">
+          <a href="for_parents.html">Поради</a>
+          <a href="parents_teens.html">Поради батькам старшокласників</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="top">
+    <img id="background_2" src="images/background4.jpeg" width="100%">
+  </div>
+
+  <div class="container">
+    <h1 class="titles">Новини закладу</h1>
+      <div class="collections">
+        <div class="collection-item-outer">
+          <div class="collection-item">
+            <img src="images/news/img/library.jpg" alt="List picture" width="" height="">
+            <div class="collection-text">
+              <h3>10.11.2021</h3>
+              <p>Такої гарної осінньої пори в бібліотеці школи-ліцею відбувся Всеукраїнський місячник шкільних бібліотек, який проходив під гаслом "Краєзнавство в шкільній бібліотеці: нові традиції та цінності". 
+              Цікаво і пізнівально пройшла мистецька година <span class="color_bold">"Скарби з бабусиної скрині"</span> з учнями 7-Б класу. Діти дізналися багато цікавого про традиції, побут, звичаї наших пращурів. Учні активно включалися в діалог, розповідали про свої сімейні обереги. 
+              Відвідувачі бібліотеки звертали увагу на оновлені виставки "Є у нас одна країна, то прекрасна Україна", "Козацтво  в ілюстраціях".
+              Щирі слова вдячності висловлюють бібліотекарі вчителям та учням, які долучилися до акції <span class="color_bold">"Подаруй книгу бібліотеці"</span>. Книжковий фонд поповнився на 70 книг.
+              Шкільна медіатека це - простір для отримання знань, професійного зростання, корисного дозвілля, спілкування. <a href="https://www.facebook.com/photo/?fbid=953660638830749&set=pcb.953661578830655">Більше фото</a></p>
+              <button onclick="showText(this)">Більше</button>
+            </div>
+          </div>
+        </div>
+        <div class="collection-item-outer">
+          <div class="collection-item">
+            <img src="images/news/img/autamn.jpg" alt="List picture" width="" height="">
+            <div class="collection-text">
+              <h3>02.11.2021</h3>
+              <p>Осінь - невесела пора... Але учні школи-ліцею можуть бачити красу в опалому листі, похмурому і дощовому ранку, покритих інеєм схилах парку та останніх хризантемах. 
+              Рекомендуємо до перегляду роботи учасників фотовиставки "Осінь золотава" на нашій сторінці <a href="https://www.facebook.com/photo/?fbid=948889639307849&set=pcb.948890465974433">Facebook</a>
+              </p>
+              <button onclick="showText(this)">Більше</button>
+            </div>
+          </div>
+        </div>
+        <div class="collection-item-outer">
+          <div class="collection-item">
+            <img src="images/news/img/holidays.jpg" alt="List picture" width="" height="">
+            <div class="collection-text">
+              <h3>14.10.2021</h3>
+              <p>14 жовтня українці святкують одразу три свята. Перше – Свято Покрови Божої Матері, друге – День українського козацтва, третє свято – День захисника України.
+              Учні школи-ліцею стали учасниками години спілкування "Козацька держава-наша гордість і слава", спортивного свята "Козацькому роду нема переводу", художньої майстерні з виготовлення листівок для захисників.
+              В переддень Дня захисника України найщирі вітання линуть на адресу тих, хто не дає ворожим кулям проникнути в наше мирне існування. Будьте завжди під міцним захистом вашого ангела охоронця. <a href="https://www.facebook.com/photo/?fbid=936454277218052&set=pcb.936454663884680">Більше фото</a>
+              </p>
+              <button onclick="showText(this)">Більше</button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+
+      <div class="collections">
+        <div class="collection-item-outer">
+          <div class="collection-item">
+            <img src="images/news/img/ato.jpg" alt="List picture" width="" height="">
+            <div class="collection-text">
+              <h3>13.10.2021</h3>
+              <p>Гарними вчинками не варто вихвалятися і це дійсно так, але цей допис зовсім про інше.... В ньому йдеться про милосердя, людяність, патріотизм, доброту, альтруїзм  та ще інші чесноти.  І саме ці риси характеру притаманні учням, батькам, працівникам школи-ліцею, які не залишились осторонь благодійності і допомогли зібрати продуктові набори для учасників АТО. Нехай ваші гарні вчинки повертаються до вас вторицею!
+              </p>
+              <button onclick="showText(this)">Більше</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="collection-item-outer">
+          <div class="collection-item">
+            <img src="images/news/img/unicef.jpg" alt="List picture" width="" height="">
+            <div class="collection-text">
+              <h3>30.09.2021</h3>
+              <p>За сприяння  ЮНІСЕФ та ГО "Дівчата" учні школи-ліцею мали унікальну можливість підвищити обізнаність з основ гігієни та отримати корисну інформацію від професійної лекторки Курилко Орини Вадимівни. Слухачами уроку  "Здоров'я без сорому" стали  учні 7-10 класів. Діти не тільки  сприймали матеріал, а й брали участь у дискусії, що може свідчити про актуальність даної теми для саме цієї вікової категорії. <a href="https://www.facebook.com/photo/?fbid=928248534705293&set=pcb.928248978038582">Більше фото</a>
+              </p>
+              <button onclick="showText(this)">Більше</button>
+            </div>
+          </div>
+        </div>
+        <div class="collection-item-outer">
+          <div class="collection-item">
+            <img src="images/news/img/meet.jpg" alt="List picture" width="" height="">
+            <div class="collection-text">
+              <h3>24.09.2021</h3>
+              <p>Сьогодні до учнів четвертих та восьмого класів завітав випускник школи-ліцею, ювенальний прокурор Малинського відділу Коростенської окружної прокуратури <span class="color_bold" >Хоменко Тарас Павлович</span>, який провів урок правових знань під назвою "Конвенція захисту прав дитини". Учні пригадали не лише свої права, а й обов'язки. Дякуємо за цікавий і змістовний правовий захід. <a href="https://www.facebook.com/photo/?fbid=924644515065695&set=pcb.924644831732330">Більше фото</a>
+              </p>
+              <button onclick="showText(this)">Більше</button>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+
+    <div class="collections">
+        <div class="collection-item-outer">
+          <div class="collection-item">
+            <img src="images/news/img/myr.jpg" alt="List picture" width="" height="">
+            <div class="collection-text">
+              <h3>23.09.2021</h3>
+              <p>Що таке мир? Діти відповідають: відсутність страху, конфліктів, смертей і зліз, спокій на душі, затишні вечори у колі сім'ї, можливість проводити дозвілля на свіжому повітрі.... А от страшна війна все кардинально змінює. Тому учні усвідомлюють, що в нашій країні повинен панувати мир. А для цього кожна людина має прислухатися до потреб і почуттів інших, бути толерантною та виваженою, доброю та турботливою. У школі-ліцеї щорічно відзначають День миру, адже мир це - найцінніше, що має суспільство. <a href="https://www.facebook.com/photo/?fbid=923978515132295&set=pcb.923978845132262">Більше фото</a>
+              </p>
+              <button onclick="showText(this)">Більше</button>
+            </div>
+          </div>
+        </div>
+        <div class="collection-item-outer">
+          <div class="collection-item">
+            <img src="images/news/img/posviata.jpg" alt="List picture" width="" height="">
+            <div class="collection-text">
+              <h3>17.09.2021</h3>
+              <p>Сьогодні відбулася посвята в ліцеїсти в Школі-ліцей №1 ім. Н.Сосніної. <a href="https://www.facebook.com/photo/?fbid=4343123039115759&set=gm.3008948046016316">Більше фото</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="collection-item-outer">
+          <div class="collection-item">
+            <img src="images/news/img/sport_day.jpg" alt="List picture" width="" height="">
+            <div class="collection-text">
+              <h3>20.09.2021</h3>
+              <p>Загальновідомі життєві істини, що спорт це - рух, а рух це – життя. В нашому навчальному закладі учні не тільки успішно засвоюють програмовий матеріал, а й отримують важливі здоров’язберігаючі навички. В рамках Олімпійського тижня відбувся ряд спортивних заходів: змагання з футболу та  волейболу, майстерклас з чірлідінгу,  Малі олімпійські ігри для учнів початкових класів. Учні школи-ліцею провели час не тільки весело, а й корисно. <a href="https://www.facebook.com/photo/?fbid=922046148658865&set=pcb.922046305325516">Більше фото</a>
+              </p>
+              <button onclick="showText(this)">Більше</button>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+
+
+     
+    </div>
+</div>
+    </body>
+
+<footer>
+  <div id="f_1" class="footer_1"><a href="index.html"><img src="images/logo2.png" width="230px"></a></div>
+  <div id="f_2" class="footer_2">
+    <p>2021. Всі права належать «МЗНВК "Школа-ліцей №1 ім. Ніни Сосніної" І-ІІІ ст.». При використанні матеріалів посилання на сайт обов`язкове.</p>
+  </div>
+
+  <div id="f_3" class="footer_3">
+    <p>Малин, вул. Паркова, 4</p>
+    <p>+38 (041) 335-21-58</p>
+    <p>bestliceum@gmail.com</p>
+  </div>
+
+  <div id="f_4" class="footer_4">
+    <a href="https://instagram.com/school_lyceum1?utm_medium=copy_link"><img src="images/inst.png" width="40px"></a>
+    <a href="https://www.facebook.com/bestliceum.mznvk.9"><img src="images/fb.png" width="40px"></a>
+  </div>
+
+</footer>
+
+</html>

@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Школа-ліцей №1 імені Н. Сосніної" І-ІІІ ступенів</title>
+  <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js.js"></script>
+</head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>  
+  <script type="text/javascript">
+  $(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() != 0) {
+  $('#topButton').fadeIn();
+  } else {
+  $('#topButton').fadeOut();
+  }
+  });
+  $('#topButton').click(function() {
+  $('body,html').animate({scrollTop:0},700);
+  });
+  });
+  </script>
+
+<body>
+  
+  <div id="topButton">
+    <img src="images/top.png" width="50px" height="50px"/>
+  </div>
+
+  <header>
+    <div id="logo">
+      <a href="index.html"><img src="images/logo2.png" width="240px"></a>      
+    </div>
+    <div id="hat">
+      <div class="dropdown">
+        <form action="index.html"><button id="maine" class="dropbtn" title="Головна">Головна</button></form>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" href="#" title="Про школу">Про школу</button>
+        <div class="dropdown-content">
+          <a href="history.html">Інформація</a>
+          <a href="teachers.html">Педадогічний колектив</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <form action="news.html"><button id="news" class="dropbtn" title="Новини">Новини</button></form>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" href="#" title="Для учня">Для учня</button>
+        <div class="dropdown-content">
+          <a href="advices_kids.html">Поради</a>
+          <a href="for_kids.html">Правила</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" href="#" title="Для батьків">Для батьків</button>
+        <div class="dropdown-content">
+          <a href="for_parents.html">Поради</a>
+          <a href="parents_teens.html">Поради батькам старшокласників</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="top">
+    <img id="background_2" src="images/background3.jpeg" width="100%">
+  </div>
+
+  <div id="teachers_inf">
+    <p><span class="color_bold">Педагогічний колектив</span> – це творча співдружність однодумців, в якій кожен робить свій індивідуальний внесок у колективну творчість, кожен збагачується духовно завдяки творчості колективу, і в той же час духовно збагачує своїх товаришів.</p>
+
+    <p>Для багатьох педагогів навчання дітей було і є не тільки професією, а й покликом душі та серця. Наш педагогічний колектив намагається робити все, щоб життя учнів було цікавим, змістовним, щоб розвивались їхні таланти, щоб вони могли реалізувати себе, знайти своє місце у житті…</p>
+  </div>
+
+  <div id="teachers_img">
+    <div id="administration">
+      <h1 id="administration_h1" class="titles">Адміністрація школи</h1>
+      <div id="adm_photo">
+        <img src="images/teachers/nikitchuk.png" width="200px">
+        <p>Никитчук Лариса Петрівна</p>
+        <span>директор, вчитель математики</span>
+      </div>
+    </div>
+    <div id="teachers_all">
+      <h1 class="titles">Педагоги</h1>
+      <div class="teachers_photo">
+        <img src="images/teachers/nekush.png" width="200px">
+        <p>Некуш Людмила Іванівна</p>
+        <span>вчитель укр.мови та укр.літ, зарл.літ</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/enko_ya.png" width="200px">
+        <p>Єнько Ярослава Василівна</p>
+        <span>вчитель укр.мови та укр.літ</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/noname.png" width="200px">
+        <p>Койда Людмила Василівна</p>
+        <span>вчитель зарл.літ</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/kolesnichenko.png" width="200px">
+        <p>Колесніченко Ірина Юрівна</p>
+        <span>вчитель англ.мови</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/kalenyk_s.png" width="200px">
+        <p>Каленик Світлана Юріївна</p>
+        <span>вчитель нім.мови</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/noname.png" width="200px">
+        <p>Мітяєва Олена Василівна</p>
+        <span>вчитель хімії</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/fedorchuk.png" width="200px">
+        <p>Федорчук Олена Василівна</p>
+        <span>вчитель хімії, основи зд.</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/noname_m.png" width="200px">
+        <p>Каленик Роман Петрович</p>
+        <span>вчитель фізики</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/zaizeva.png" width="200px">
+        <p>Зайцева Ольга Сергіївна</p>
+        <span>вчитель фізики</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/rodina.png" width="200px">
+        <p>Родіна Леся Олександрівна</p>
+        <span>вчитель інформатики</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/enko_o.png" width="200px">
+        <p>Єнько Олександр Вітальович</p>
+        <span>вчитель інформатики</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/los.png" width="200px">
+        <p>Лось Віталій Олександрович</p>
+        <span>вчитель інформатики, біології</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/noname.png" width="200px">
+        <p>Мельничук Валентина Степанівна</p>
+        <span>вчитель біології</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/gaichenia.png" width="200px">
+        <p>Гайченя Валентина Володимирівна</p>
+        <span>вчитель математики</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/goncharova.png" width="200px">
+        <p>Гончарова Інна Володимирівна</p>
+        <span>вчитель математики</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/noname.png" width="200px">
+        <p>Кузьомко Людмила Петрівна</p>
+        <span>вчитель математики</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/enko_v.png" width="200px">
+        <p>Єнько Валентина Володимирівна</p>
+        <span>вчитель історії, правознавства</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/kovalchuk.png" width="200px">
+        <p>Ковальчук Наталія Валентинівна</p>
+        <span>вчитель географії</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/noname.png" width="200px">
+        <p>Вдовиченко Олена Вікторівна</p>
+        <span>вчитель мистецтва, ЗУ</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/maidanovich.png" width="200px">
+        <p>Майданович Наталія Миколаївна</p>
+        <span>вчитель мистецтва</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/andrienko.png" width="200px">
+        <p>Андрієнко Ольга Олександрівна</p>
+        <span>вчитель трудового навчання</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/noname.png" width="200px">
+        <p>Громська Наталія Анатоліївна</p>
+        <span>вчитель фізкультури</span>
+    </div>
+    <div class="teachers_photo">
+        <img src="images/teachers/porohnyik.png" width="200px">
+        <p>Порохнюк Галина Григорівна</p>
+        <span>вчитель початкових класів</span>
+    </div>
+    </div>
+  </div>
+
+  <div id="teacher_year">
+    <h1 class="titles">Переможці конкурсу «Учитель року»</h1>
+    <table class="table" id="table_teachers" border="1">
+      <thead>
+        <tr>
+          <th>РІК</th>
+          <th>ПІБ</th>
+          <th>ПРЕДМЕТ</th>
+          <th>ЕТАП</th>
+        </tr>  
+      </thead>    
+      <tbody>
+        <tr>
+          <th>2003</th>
+          <th>Максименко М.В.</th>
+          <th>Географія</th>
+          <th>Обласний</th>
+        </tr> 
+        <tr>
+          <th>2005</th>
+          <th>Каленик Р.П.</th>
+          <th>Фізика</th>
+          <th>Міський</th>
+        </tr>
+        <tr>
+          <th>2006</th>
+          <th>Мітяєва О.В.</th>
+          <th>Хімія</th>
+          <th>Міський</th>
+        </tr>
+        <tr>
+          <th>2006</th>
+          <th>Сущенко С.М.</th>
+          <th>Німецька мова</th>
+          <th>Міський</th>
+        </tr>
+        <tr>
+          <th>2007</th>
+          <th>Кузьомко Л.П.</th>
+          <th>Математика</th>
+          <th>Міський</th>
+        </tr>
+        <tr>
+          <th>2009</th>
+          <th>Білошицька А.О.</th>
+          <th>Українська мова</th>
+          <th>Міський</th>
+        </tr>
+        <tr>
+          <th>2009</th>
+          <th>Майданович-Лосенко Н.М.</th>
+          <th>Музика</th>
+          <th>Міський</th>
+        </tr>
+        <tr>
+          <th>2018</th>
+          <th>Каленик С.Ю.</th>
+          <th>Німецька мова</th>
+          <th>Обласний</th>
+        </tr>
+      </tbody>
+    </table>
+    <p>У 2009 році школа-ліцей, як один із кращих навчальних закладів України, був нагороджений відзнакою <span class="color_bold">«Флагман освіти і науки України»</span>.</p>
+    <p>Ми гордимся кращими педагогами - заслуженим учителем України – <span class="color_bold">Максименко Марією Василівною</span> та педагогами, нагородженими нагрудним знаком «Василь Сухомлинський» - <span class="color_bold">Молодоженею Майєю Володимирівною</span> та <span class="color_bold">Андрієнко Валентиною Дмитрівною</span>.</p>
+  </div>
+</body>
+
+<footer>
+  <div id="f_1" class="footer_1"><a href="index.html"><img src="images/logo2.png" width="230px"></a></div>
+  <div id="f_2" class="footer_2">
+    <p>2021. Всі права належать «МЗНВК "Школа-ліцей №1 ім. Ніни Сосніної" І-ІІІ ст.». При використанні матеріалів посилання на сайт обов`язкове.</p>
+  </div>
+
+  <div id="f_3" class="footer_3">
+    <p>Малин, вул. Паркова, 4</p>
+    <p>+38 (041) 335-21-58</p>
+    <p>bestliceum@gmail.com</p>
+  </div>
+
+  <div id="f_4" class="footer_4">
+    <a href="https://instagram.com/school_lyceum1?utm_medium=copy_link"><img src="images/inst.png" width="40px"></a>
+    <a href="https://www.facebook.com/bestliceum.mznvk.9"><img src="images/fb.png" width="40px"></a>
+  </div>
+
+</footer>
+
+</html>

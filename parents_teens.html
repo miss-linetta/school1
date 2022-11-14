@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class="">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Школа-ліцей №1 імені Н. Сосніної" І-ІІІ ступенів</title>
+  <link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>  
+  <script type="text/javascript">
+  $(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() != 0) {
+  $('#topButton').fadeIn();
+  } else {
+  $('#topButton').fadeOut();
+  }
+  });
+  $('#topButton').click(function() {
+  $('body,html').animate({scrollTop:0},700);
+  });
+  });
+  </script>
+
+<body>
+  
+  <div id="topButton">
+    <img src="images/top.png" width="50px" height="50px"/>
+  </div>
+
+  <header>
+    <div id="logo">
+      <a href="index.html"><img src="images/logo2.png" width="240px"></a>      
+    </div>
+    <div id="hat">
+      <div class="dropdown">
+        <form action="index.html"><button id="maine" class="dropbtn" title="Головна">Головна</button></form>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" href="#" title="Про школу">Про школу</button>
+        <div class="dropdown-content">
+          <a href="history.html">Інформація</a>
+          <a href="teachers.html">Педадогічний колектив</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <form action="news.html"><button id="news" class="dropbtn" title="Новини">Новини</button></form>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" href="#" title="Для учня">Для учня</button>
+        <div class="dropdown-content">
+          <a href="advices_kids.html">Поради</a>
+          <a href="for_kids.html">Правила</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" href="#" title="Для батьків">Для батьків</button>
+        <div class="dropdown-content">
+          <a href="for_parents.html">Поради</a>
+          <a href="parents_teens.html">Поради батькам старшокласників</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="top8">
+    <img class="background" src="images/background8.jpeg" width="100%">
+  </div>
+
+  <div id="advices_teens">
+    <h1 class="titles">Поради батькам старшокласників</h1>
+    <ul>
+      <li>Необхідно, щоб ви, батьки, побачили, наскільки важлива для вашої дитини проблема входження в новий колектив, і надали йому психологічну підтримку.</li>
+      <li>В цьому віці вкрай небажано втручатися у взаємини дитини з однолітками, приходити в школу або з'ясовувати стосунки з батьками інших учнів (виняток становлять лише крайні випадки, коли у вас є підстави для серйозних побоювань).</li>
+      <li>Якщо ви помічаєте, що ваша дитина стала більш дратівливою з причини неуспішності (або більш похмурою і апатичною), ніж раніше, то повинні допомогти йому справитися з труднощами в навчанні. Для цього, насамперед, треба з'ясувати, з якими саме труднощами зіткнувся учень, які предмети найважче даються. Потім постаратися пояснити, що вимоги до нього зросли і педагоги оцінюють його за новими критеріями. Потрібно разом з дитиною проаналізувати ті зауваження, які роблять педагоги, і сформулювати нові параметри оцінки успішності, уточнивши, яким умовам повинні відповідати його письмові і усні роботи, реферати, доповіді. Можливо, для цього знадобиться консультація вчителя (бажано, щоб її отримав сам школяр, а не ви). Потрібно допомогти дитині виконати кілька завдань згідно зі встановленими правилами.</li>
+      <li>Нерідко зустрічається у 10 класі проблема — яскраво виражене бажання відпочити після напруженого дев'ятого і перед випускним одинадцятим класом. Коли дорослі бачать, що дитина остаточно поринула у своє життя і не займається ні навчанням, ні допомогою по дому, вони намагаються впливати на неї критикою й докорами, що найчастіше виявляється марним. Для того щоб старшокласник не віддалявся від дорослих, потрібно донести до нього свої побоювання у звичайній розмові, пояснити, що саме в поведінці дитини викликає занепокоєння.</li>
+      <li>У старших класах школярі проводять все більше часу поза домом, пізно повертаються, рідше, ніж раніше, запрошують друзів до себе. Батьки повинні пояснити дитині, що вони хвилюються за неї, але ні в якому разі не висувати необґрунтованих вимог: «Завжди бути вдома в 20 годин і крапка». Будь-яка вимога має бути розумною і обґрунтованою.</li>
+      <li>У 10 класі школяр повинен остаточно визначитися, чи буде він вступати до вузу після закінчення школи. Треба допомогти йому сформулювати конкретні кроки, які слід зробити для вступу, і почати готуватися до іспитів. Саме у 10 класі такі заняття будуть своєчасними, адже у підлітка зараз є остання можливість змінити своє рішення.</li>
+    </ul>
+  </div>
+  <div id="parents_teens_img">
+    <img src="images/parents_kids1.png" width="50%">
+  </div>
+  
+</body>
+
+<footer>
+  <div id="f_1" class="footer_1"><a href="index.html"><img src="images/logo2.png" width="230px"></a></div>
+  <div id="f_2" class="footer_2">
+    <p>2021. Всі права належать «МЗНВК "Школа-ліцей №1 ім. Ніни Сосніної" І-ІІІ ст.». При використанні матеріалів посилання на сайт обов`язкове.</p>
+  </div>
+
+  <div id="f_3" class="footer_3">
+    <p>Малин, вул. Паркова, 4</p>
+    <p>+38 (041) 335-21-58</p>
+    <p>bestliceum@gmail.com</p>
+  </div>
+
+  <div id="f_4" class="footer_4">
+    <a href="https://instagram.com/school_lyceum1?utm_medium=copy_link"><img src="images/inst.png" width="40px"></a>
+    <a href="https://www.facebook.com/bestliceum.mznvk.9"><img src="images/fb.png" width="40px"></a>
+  </div>
+
+</footer>
+
+</html>
